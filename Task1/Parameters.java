@@ -8,7 +8,4 @@ public interface Parameters {
     return 4;
   }
 
-  public void setHeight (double height);
-
-  public void setWidth(double width);
 }

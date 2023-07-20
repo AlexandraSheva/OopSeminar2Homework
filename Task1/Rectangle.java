@@ -6,18 +6,23 @@ public class Rectangle implements Style, Show, Parameters, Drawing, Calculating 
 
   private double width;
 
+  public Rectangle (double height, double width) {
+    this.height = height;
+    this.width = width;
+  }
+
   @Override
   public void draw() {
     System.out.println("Drawing rectangle...");
     
   }
 
-  @Override
+ 
   public void setHeight (double height) {
     this.height = height;
   }
 
-  @Override
+  
   public void setWidth(double width) {
     this.width = width;  
   }
