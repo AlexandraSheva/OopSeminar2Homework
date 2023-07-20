@@ -55,8 +55,8 @@ public class Rectangle implements Style, Show, Parameters, Drawing, Calculating 
     System.out.println(COLOR);
     System.out.println(BORDERCOLOR);*/
 
-    System.out.printf ("Построен треугольник высотой %d, шириной %d, площадью %d, с периметром %d", getHeight(),getWidth(),area(),perimeter());
-    System.out.printf ("Цвет прямоугольника: %s. Обводка прямоугольника: %s", COLOR, BORDERCOLOR);
+    System.out.printf ("Мы построили прямоугольник высотой %s, шириной %s, площадью %s, с периметром %s. ", getHeight(),getWidth(),area(),perimeter());
+    System.out.printf ("Цвет прямоугольника: %s. Обводка прямоугольника: %s.", COLOR, BORDERCOLOR);
 
   }
 
