@@ -5,7 +5,10 @@ package Task1;
  */
 public interface Drawing {
 
-  public void draw();
+  default void draw() {
+    System.out.println("Drawing shape...");
+    
+  }
 
   
 }
