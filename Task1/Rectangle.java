@@ -11,12 +11,13 @@ public class Rectangle implements Style, Show, Parameters, Drawing, Calculating 
     System.out.println("Drawing rectangle...");
     
   }
-
+  
+  @Override
   public void setHeight (double height) {
     this.height = height;
   }
 
- 
+  @Override
   public void setWidth(double width) {
     this.width = width;  
   }

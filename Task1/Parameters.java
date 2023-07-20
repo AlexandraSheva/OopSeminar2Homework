@@ -7,4 +7,8 @@ public interface Parameters {
   default double getHeight(){
     return 4;
   }
+
+  public void setHeight (double height);
+
+  public void setWidth(double width);
 }
