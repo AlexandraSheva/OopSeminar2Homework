@@ -11,7 +11,7 @@ public class Rectangle implements Style, Show, Parameters, Drawing, Calculating 
     System.out.println("Drawing rectangle...");
     
   }
-  
+
   @Override
   public void setHeight (double height) {
     this.height = height;
@@ -43,13 +43,16 @@ public class Rectangle implements Style, Show, Parameters, Drawing, Calculating 
   
 
   public void showAll() {
-    System.out.println(getHeight());
+    /*System.out.println(getHeight());
     System.out.println(getWidth());
     System.out.println(area());
     System.out.println(perimeter());
     System.out.println(COLOR);
-    System.out.println(BORDERCOLOR);
-    
+    System.out.println(BORDERCOLOR);*/
+
+    System.out.printf ("Построен треугольник высотой %d, шириной %d, площадью %d, с периметром %d", getHeight(),getWidth(),area(),perimeter());
+    System.out.printf ("Цвет прямоугольника: %s. Обводка прямоугольника: %s", COLOR, BORDERCOLOR);
+
   }
 
 }
